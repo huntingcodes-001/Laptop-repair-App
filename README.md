@@ -36,39 +36,6 @@ ElectroRepair is a modern, full-stack web application designed to streamline the
 * **Backend**: Supabase (PostgreSQL for database, Auth for user management).
 * **Routing**: React Router DOM v6.
 
-## 📂 Project Structure
-├── supabase/
-│   ├── migrations/                # Database schemas and functions
-├── src/
-│   ├── components/
-│   │   ├── Layout/               # Header, Footer, and general layout
-│   │   ├── ProtectedRoute.tsx    # Component for role-based routing
-│   │   └── ...                   # Other reusable components
-│   ├── context/
-│   │   └── AuthContext.tsx       # Auth provider for the application
-│   ├── lib/
-│   │   └── supabase.ts           # Supabase client and API calls
-│   ├── pages/
-│   │   ├── Admin/                # Admin-specific pages
-│   │   ├── Customer/             # Customer-specific pages
-│   │   ├── Employee/             # Employee-specific pages
-│   │   ├── About.tsx             # About Us page
-│   │   ├── Home.tsx              # Landing page
-│   │   ├── Login.tsx             # Authentication page
-│   │   ├── SetupProfile.tsx      # User profile setup
-│   │   └── Unauthorized.tsx      # Access denied page
-│   ├── types/
-│   │   └── index.ts              # TypeScript interfaces
-│   ├── App.tsx                   # Main application router
-│   └── main.tsx                  # Entry point
-├── .gitignore
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-
 ## 🚀 Getting Started
 
 ### Prerequisites
